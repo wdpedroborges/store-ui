@@ -8,9 +8,9 @@ export default function Footer() {
                 <div className="flex flex-col items-center border-t pt-6">
 
                 <nav className="mb-4 flex flex-wrap justify-center gap-x-4 gap-y-2 md:justify-start md:gap-6">
-                <Link to="/" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Home</Link>
-                    <Link to="/about" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</Link>
-                    <Link to="/contact" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Contact</Link>
+                <Link to="/store-ui/" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Home</Link>
+                    <Link to="/store-ui/about" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">About</Link>
+                    <Link to="/store-ui/contact" className="text-gray-500 transition duration-100 hover:text-indigo-500 active:text-indigo-600">Contact</Link>
                 </nav>
 
                 <div className="flex gap-4">

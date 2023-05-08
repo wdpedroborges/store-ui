@@ -35,7 +35,7 @@ export default function Products() {
                         products.map((product: any, index: any) => {
                             return (
                                 <div key={index}>
-                                    <Link to={`/product/${product.id}`} className="group relative mb-2 block h-80 overflow-hidden rounded-lg bg-gray-100 lg:mb-3">
+                                    <Link to={`/store-ui/product/${product.id}`} className="group relative mb-2 block h-80 overflow-hidden rounded-lg bg-gray-100 lg:mb-3">
                                         <img src={product.image} loading="lazy" alt={product.title} className="h-full w-full object-cover object-center transition duration-200 group-hover:scale-110" />
                                     </Link>
             

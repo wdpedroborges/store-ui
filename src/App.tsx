@@ -15,12 +15,12 @@ function App() {
       <Router>
           <Navbar/>
             <Routes>
-              <Route path="/" element={<Products />}/>
-              <Route path="/about" element={<About />}/>
-              <Route path="/contact" element={<Contact />}/>
-              <Route path="/login" element={<Login />}/>
-              <Route path="/cart" element={<Cart />}/>
-              <Route path="/product/:id" element={<Product />}/>
+              <Route path="/store-ui/" element={<Products />}/>
+              <Route path="/store-ui/about" element={<About />}/>
+              <Route path="/store-ui/contact" element={<Contact />}/>
+              <Route path="/store-ui/login" element={<Login />}/>
+              <Route path="/store-ui/cart" element={<Cart />}/>
+              <Route path="/store-ui/product/:id" element={<Product />}/>
             </Routes>
 
           <Footer/>

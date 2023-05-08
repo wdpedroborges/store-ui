@@ -56,7 +56,7 @@ export default function Navbar() {
                 </Link>
                 <nav className="hidden gap-12 lg:flex 2xl:ml-16">
                     <Link
-                        to="/"
+                        to="/store-ui/"
                         className={`text-lg font-semibold transition duration-100 hover:text-indigo-500 ${
                         activeLink === '/' ? 'text-indigo-700' : 'text-gray-600'
                         }`}
@@ -65,7 +65,7 @@ export default function Navbar() {
                         Home
                     </Link>
                     <Link
-                        to="/about"
+                        to="/store-ui/about"
                         className={`text-lg font-semibold transition duration-100 hover:text-indigo-500 ${
                         activeLink === '/about' ? 'text-indigo-700' : 'text-gray-600'
                         }`}
@@ -74,7 +74,7 @@ export default function Navbar() {
                         About
                     </Link>
                     <Link
-                        to="/contact"
+                        to="/store-ui/contact"
                         className={`text-lg font-semibold transition duration-100 hover:text-indigo-500 ${
                         activeLink === '/contact' ? 'text-indigo-700' : 'text-gray-600'
                         }`}
@@ -84,13 +84,13 @@ export default function Navbar() {
                     </Link>
                 </nav>
                 <div className="flex divide-x border-r sm:border-l">
-                    <Link to="/login" className="flex h-12 w-12 flex-col items-center justify-center gap-1.5 transition duration-100 hover:bg-gray-100 active:bg-gray-200 sm:h-20 sm:w-20 md:h-24 md:w-24" onClick={() => handleLinkClick('/login')}>
+                    <Link to="/store-ui/login" className="flex h-12 w-12 flex-col items-center justify-center gap-1.5 transition duration-100 hover:bg-gray-100 active:bg-gray-200 sm:h-20 sm:w-20 md:h-24 md:w-24" onClick={() => handleLinkClick('/login')}>
                         <IconButton aria-label="cart">
                             <AccountCircleIcon />
                         </IconButton>
                     </Link>
 
-                    <Link to="/cart" className="relative flex h-12 w-12 flex-col items-center justify-center gap-1.5 transition duration-100 hover:bg-gray-100 active:bg-gray-200 sm:h-20 sm:w-20 md:h-24 md:w-24" onClick={() => handleLinkClick('/cart')}>
+                    <Link to="/store-ui/cart" className="relative flex h-12 w-12 flex-col items-center justify-center gap-1.5 transition duration-100 hover:bg-gray-100 active:bg-gray-200 sm:h-20 sm:w-20 md:h-24 md:w-24" onClick={() => handleLinkClick('/cart')}>
                         <IconButton aria-label="cart">
                             <StyledBadge badgeContent={checkAmountInCart(products)} color="secondary">
                                 <ShoppingCartIcon />
@@ -111,7 +111,7 @@ export default function Navbar() {
                         </svg>
 
                         <Link
-                            to="/"
+                            to="/store-ui/"
                             className={`text-xl font-semibold transition duration-100 hover:text-indigo-500 ${
                             activeLink === '/' ? 'text-indigo-700' : 'text-gray-600'
                             }`}
@@ -120,7 +120,7 @@ export default function Navbar() {
                             Home
                         </Link>
                         <Link
-                            to="/about"
+                            to="/store-ui/about"
                             className={`text-xl font-semibold transition duration-100 hover:text-indigo-500 ${
                             activeLink === '/about' ? 'text-indigo-700' : 'text-gray-600'
                             }`}
@@ -129,7 +129,7 @@ export default function Navbar() {
                             About
                         </Link>
                         <Link
-                            to="/contact"
+                            to="/store-ui/contact"
                             className={`text-xl font-semibold transition duration-100 hover:text-indigo-500 ${
                             activeLink === '/contact' ? 'text-indigo-700' : 'text-gray-600'
                             }`}
